@@ -1,0 +1,47 @@
+body {
+    font-family: 'Gideon Roman', cursive;
+}
+   
+:root{
+    background-color: #ffe8d6;
+}
+
+main {
+    background-color: #ffe8d6;
+}
+
+header {
+    height: 200px;
+    width: auto;
+    background-image: linear-gradient(to right, #a5a58d , #ddbea9);
+    color: white;
+    text-align: center;
+    border-color: aliceblue;
+}
+
+.card-header {
+    background-color: #a5a58d;
+}
+
+h1 {
+    text-align: center;
+}
+
+.team {
+    justify-content: center;
+    display: inline-block;
+    box-shadow: 0 5px 12px 1px;
+    border-radius: 7px;
+    margin-top: 3%;
+}
+
+.container {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.list-group-item:first-child {
+border-top-left-radius: 10px;
+border-top-right-radius: 10px ;
+}
